@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(200, 175, 224);
+}
+h1{
+    color:rgb(72, 38, 102) ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.card{
+    background-color: rgb(115, 70, 157);
+    padding: 30px;
+    border-radius: 20px;
+}
+.card-body{
+    background-color:rgb(72, 38, 102) ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.form-control::placeholder{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(72, 38, 102) ;
+    text-align: center;
+}
+.form-group{
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+.form-group h6{
+    color: rgb(200, 175, 224);
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.d-grid {
+    background-color:rgb(200, 175, 224) ;
+    border-radius: 10px;
+}
+.d-grid button{
+    color: rgb(72, 38, 102);
+    font-weight: bold;
+}
+.d-grid:hover{
+    border: 5px solid rgb(115, 70, 157) ;
+}
+.my-2{
+    color: rgb(200, 175, 224);
+}
+#clear{
+    background-color:rgb(115, 70, 157) ;
+}
+.none{
+    display: none;
+}
+table i{
+    font-size: 24px;
+    cursor: pointer;
+}
+#validationMessage{
+    display: none;
+}
+#validationMessageNumber{
+    display: none;
+}
